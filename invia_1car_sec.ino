@@ -10,7 +10,7 @@ void setup()
     Bridge.begin();
     Serial.begin(115200);
     pinMode(LEDPIN, OUTPUT); 
-    digitalWrite(LEDPIN, LOW);
+    digitalWrite(LEDPIN, HIGH);
 }
 
 void loop() 
