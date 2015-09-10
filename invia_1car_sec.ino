@@ -8,7 +8,7 @@ char c = 'a';
 void setup() 
 {
     Bridge.begin();
-    Serial.begin(115200);
+    Serial.begin(9600);
     pinMode(LEDPIN, OUTPUT); 
     digitalWrite(LEDPIN, HIGH);
 }
